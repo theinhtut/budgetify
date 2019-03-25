@@ -1,0 +1,36 @@
+{
+  "name": "budgetify-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "6.24.1",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-modal": "^3.8.1",
+    "react-router-dom": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "validator": "^10.11.0",
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.0"
+  }
+}
