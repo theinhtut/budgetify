@@ -1,7 +1,12 @@
 import React from 'react';
+import ExpenseList from './ExpensesList';
+import ExpenseListFilters from './ExpenseListFilters';
 
 const BudgetifyDashboardPage = () => (
-    <div>This is from my dashboard component.</div>
+    <div>
+        <ExpenseListFilters/>
+        <ExpenseList/>
+    </div>
 );
 
 export default BudgetifyDashboardPage;
