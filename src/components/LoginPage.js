@@ -8,7 +8,7 @@ export const LoginPage = ({ startLogin }) => (
         <div className="box-layout__box">
             <h1 className="box-layout__title">Budgetify</h1>
             <p>Manage your daily expenses 💸 at your fingertip.</p>
-            <button className="button" onClick={startLogin}>Login in with <i class="fab fa-google"></i></button>
+            <button className="button" onClick={startLogin}>Login in with <i className="fab fa-google"></i></button>
         </div>
         <div className="box-layout__overlay"></div>
     </div>
