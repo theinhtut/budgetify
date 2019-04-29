@@ -1,10 +1,12 @@
-<img src="./public/images/favicon.png" alt="Logo" title="TESTful API" align="right" height="60" />
+<img src="./public/images/favicon.png" alt="Logo" align="right" height="60" />
 <br>
 
 
 # Budgetify App 
 
-Manage your daily expenses 💸 at your fingertip. React App from Andrew's React Web Developer Course
+Manage your daily expenses 💸 at your fingertip. React App from Andrew's React Web Developer Course  
+<br>
+![](imgs/6M2SFl6YLa.gif)
 
 ### Installation
 
